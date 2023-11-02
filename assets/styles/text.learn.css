@@ -1,0 +1,94 @@
+.Tahoma {
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.Verdana {
+    font-family: Verdana;
+    margin-top: 0px;
+}
+.HTML {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+
+    }
+.Beginner {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: rgb(96, 96, 96);
+    font-size: 13px;
+}
+.course {
+    width: 300px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.Getstarted {
+    background-color: green;
+    border-color: green;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 7.5px;
+    padding: 7.5px 15px;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    transition: box-shadow 0.15s,background-color 0.15s,color 0.15s;
+
+
+}
+
+.Getstarted:hover{
+    box-shadow: 2.5px 2.5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.Getstarted:active{
+    background-color: white;
+    color: green;
+}
+
+.Deals {
+    font-family: Arial;
+}
+.Biggest {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.Sales {
+    margin-top: 0px;
+    color: red;
+    font-style: italic;
+    font-weight: 530;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.Apples {
+    font-family: Arial;
+}
+.Shopping {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.seehowapple {
+    text-align: center;
+    font-size: 15px;
+}
+
+.LearnMore {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+
+

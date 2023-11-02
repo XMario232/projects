@@ -1,0 +1,129 @@
+.text {
+    font-family: Arial;
+}
+
+.New {
+    color: orange;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 4px;
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+.Mac {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    font-weight: bold;
+
+
+}
+
+.Super{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 4px;
+
+}
+
+.Price {
+    text-align: center;
+    color: rgb(151, 151, 151);
+    font-size: 17px;
+    margin-top: 0px;
+
+}
+
+.button {
+    font-family: Arial;
+    text-align: center;
+}
+
+.Button2 {
+    background-color: rgb(0, 140, 255);
+    color: white;
+    padding: 15px 15px;
+    border-radius: 32px;
+    border: 1px;
+    border-color: rgb(0, 140, 255);
+    border-style: solid;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    transition: box-shadow 0.15s,background-color 0.15s,color 0.15s;
+    margin-bottom: 40px;
+}
+
+.Button2:hover{
+    box-shadow: 2.5px 2.5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.Button2:active{
+    background-color: white;
+    color: rgb(0, 140, 255);
+}
+
+
+.second {
+    font-family: Arial;
+
+}
+.Price1 {
+    font-size: 40px;
+}
+.USD {
+    font-size: 20px;
+    color: gray;
+    font-weight: 400;
+
+}
+.Pozitive {
+    color: rgb(1, 153, 1);
+    font-size: 20px;
+    font-weight: 400;
+}
+.After {
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(150, 150, 150);
+}
+.Minus {
+    color: red;
+    margin-bottom: 40px;
+}
+
+.third {
+    font-family: Arial;
+
+}
+.Email {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom:10px;
+}
+.Email1 {
+    margin-left: 5px;
+    font-weight: 100;
+    color: rgb(172, 172, 172);
+
+    
+}
+.Text-Email {
+    margin-top: 0px;
+    width: 500px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size: 17px;
+}
+.Text-Tag {
+    margin-left: 10px;
+}
+.tag {
+    color: rgb(0, 89, 255)
+}
+
+

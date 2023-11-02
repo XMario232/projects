@@ -1,0 +1,292 @@
+button{
+    cursor: pointer;
+}
+
+.Pisica{
+    width: 200px;
+    border-radius: 10px;
+
+}
+
+.Pisica2{
+    width: 200px;
+    height: 200px;
+    object-position: center;
+    object-fit: cover;
+}
+
+.Pisica3{
+    width: 200px;
+    object-fit: cover;
+    height: 200px;
+    border-radius: 100px;
+}
+
+
+.TextBox1 {
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px 10px;
+    border-color: rgb(189, 189, 189);
+}
+
+
+
+.Google-Logo{
+    margin: 135px;
+    display: block;
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.textbox2 {
+    display: block;
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 16px;
+    width: 500px;
+    border-radius: 30px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+
+.Searchh{
+    background-color: rgb(245, 245, 245);
+    border: none;
+    margin-left: 115px;
+    padding: 10px 30px;
+    font-weight: bold;
+}
+
+.Lucky{
+    background-color: rgb(245, 245, 245);
+    border: none;
+    margin-left: 10px;
+    padding: 10px 30px;
+    font-weight: bold;
+}
+
+.LinkedIn-signup {
+    font-family: Arial;
+}
+
+.Email {
+    font-size: 10px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: rgb(150, 150, 150);
+}
+.email { 
+    padding :3px 50px;
+    margin-top: 0px;
+    border-width: 1.5px;
+    margin-bottom: 7px;
+    border-style: solid;
+    border-radius: 3.5px;
+}
+
+.Privacy {
+    font-size: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: rgb(114, 114, 114);
+}
+
+.Agree {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: rgb(0, 81, 255);
+    color: white;
+    padding: 12px 90px;
+    text-align: center;
+    font-size: 13px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.Agree:hover {
+    box-shadow: 2.5px 2.5px 10px 2.5px rgba(0, 0, 0, 0.15);
+}
+
+.Agree:active {
+    background-color: rgb(0, 60, 255) ;
+    color: rgb(231, 231, 231);
+}
+
+
+.Twitter {
+    font-family: Arial;
+}
+
+.Pfp {
+    object-fit: cover;
+    object-position: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    vertical-align: middle;
+}
+
+.feed {
+    font-size: 18px;
+    padding-left: 10px;
+    border: none;
+    vertical-align: middle;
+}
+   
+.Tweet {
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.15s;
+    vertical-align: middle;
+}
+
+.Tweet:hover{
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+
+.ab-text {
+    width: 220px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.ab-button1 {
+    margin-left: 5px;
+    cursor: pointer;
+}
+.ab-button2 {
+    cursor: pointer;
+}
+
+.aa-Name {
+    display: block;
+}
+
+.ad {
+    font-family: Arial;
+}
+
+.ad-First-Name {
+    padding-left:20px;
+    padding-top: 12px;
+    padding-right: 0px;
+    padding-bottom: 12px;
+    font-size: 23px;
+    width: 200px;
+    border-color: rgb(161, 161, 161);
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.ad-Last-name {
+    padding-left:20px;
+    padding-top: 12px;
+    padding-right: 0px;
+    padding-bottom: 12px;
+    font-size: 23px;
+    border-color: rgb(161, 161, 161);
+    margin-bottom: 15px;
+    width: 200px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.ad-email {
+    padding-left:20px;
+    padding-top: 12px;
+    padding-right: 0px;
+    padding-bottom: 12px;
+    font-size: 23px;
+    display: block;
+    width: 426px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(161, 161, 161);
+    border-width: 1px;
+}
+
+.ad-button {
+    width: 449px;
+    border-color: rgb(29, 96, 240);
+    background-color: rgb(29, 96, 240);
+    color: white;
+    font-weight: bold;
+    padding: 19px 19px;
+    font-size: 25px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+.ae {
+    font-family: Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.ae-text {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.ae-pickup {
+    display: block;
+    width: 500px;   
+    font-size: 25px;
+    background-color: rgb(240, 240, 240);
+    border: none;
+    margin-bottom: 10px;
+    padding: 15px 20px;
+}
+
+.ae-destination {
+    display: block;
+    width: 500px;   
+    font-size: 25px;
+    background-color: rgb(240, 240, 240);
+    border: none;
+    padding: 15px 20px;
+    margin-bottom: 35px;
+}
+
+.ae-Request-Now {
+    padding: 25px 35px;
+    font-size: 25px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.ae-Schedule {
+    background-color: rgb(240, 240, 240);
+    padding: 25px 35px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+

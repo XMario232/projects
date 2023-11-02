@@ -1,0 +1,129 @@
+div{
+    font-family: Arial;
+}
+
+button{
+    cursor: pointer;
+}
+
+.Red-Square {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.Green-Circle{
+    display: inline-block;
+    border-radius: 50%;
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    border: none;
+}
+
+.bb{
+    border-width: 1px;
+    width: 300px;
+    border-style: solid;
+    padding: 15px 15px;
+}
+
+.bd{
+    font-family: Arial;
+    width: 380px;
+    padding: 10px 15px;
+    background-color: rgb(33, 33, 33);
+}
+
+.title{
+    font-weight: bold;
+    font-size: 30px;
+    color: White;
+    margin-top: 6px;
+}
+
+.Description{
+    color:  rgb(160, 160, 160);
+    margin-bottom: 6px;
+}
+
+.be {
+    display: inline-block;
+    padding: 10px 10px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px 1px rgba( 0, 0, 0, 1);
+}
+.Profile-picture {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.feed {
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    width: 400px;
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+.Tweet {
+    border: none;
+    background-color: rgb(29, 155, 240);
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 16px 30px;
+    border-radius: 70px;
+    margin-right: 10px;
+}
+
+
+.Oliver {
+    display: inline-block;
+    vertical-align: middle;
+    height: 200px;
+    border-width: 0px;
+    box-shadow: 0px 0px 5px rgba( 0, 0, 0, 0.3);
+    padding-bottom: 130px;
+    border-style: solid;
+    margin-right: 20px;
+}
+.OliverImg {
+    object-fit: cover;
+    object-position: center;
+    height: 200px;
+    width: 240px;
+    margin-bottom: 10px;
+}
+.Name {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.Mutuals {
+    color: rgb(100, 100, 100);
+    margin-left: 10px;
+    margin-bottom: 8px;
+}
+.Add-Friend {
+    background-color: rgb(24, 119, 242);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    width: 120px;
+    font-size: 15px;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+
+.Add-Friend:active{
+    background-color: black;
+    color: rgb(99, 3, 3);
+}
