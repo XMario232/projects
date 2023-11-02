@@ -5,7 +5,100 @@ body{
 
 button{
     display: block;
-    padding: 10px;
-    margin-bottom: 10px;
+    padding: 10px 30px;
+    margin-bottom: 10px;   
+    border-width: 1px;
+    font-family: Arial;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 40px;
     
+}
+
+button:hover{
+    font-size: 20px;
+    
+}
+
+.Bold {
+    font-weight: bold;
+}
+
+.Boxes {
+    color: white;
+    background-color: green;
+    border-radius: 40px;
+}
+
+.Buttons {
+    padding: 10px 30px;
+    background-color: yellow;
+    border-radius: 30px;
+}
+.Buttons:hover{
+    background-color: orange;
+}
+
+.Divs {
+    background-color: red;
+    color: white;
+}
+.Divs:hover{
+    background-color: rgb(69, 206, 69);
+}
+
+.Form {
+    padding: 10px 36px;
+    background-color: rgb(0, 47, 255);
+    color: white;  
+}
+
+.Form:hover{
+    background-color: rgb(41, 147, 247);
+    color: azure;
+}
+
+.Homework {
+    background-color: white;
+}
+.Homework:hover{
+    background-color: whitesmoke;
+}
+
+.Learn {
+    background-color: darkblue;
+    color: white;
+
+}
+
+.Social-Buttons {
+    background-color: white;
+    border-color: rgb(6, 95, 212);
+    color:  rgb(6, 95, 212);
+}
+.Social-Buttons:hover{
+    background-color: rgb(6, 95, 212);
+    color: white;
+}
+
+.Website {
+    background-color: orange;
+    
+}
+
+.Youtube {
+    background-color: rgb(247, 69, 69);
+}
+.Youtube:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border-color: red;
+}
+
+.Youtube-Try {
+    background-color: white;
+}
+.Youtube-Try:hover{
+    background-color: aqua;
+    color: whitesmoke;
 }
