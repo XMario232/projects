@@ -1,104 +1,200 @@
 body{
-    padding: 0;
-    margin: 0;
+    background-color: #DDF2FD;
+    font-size: 16px;
 }
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 3px solid;
+    margin-bottom: 2rem;
+    border-color: #427D9D;
+}
+
+main{
+    border-bottom: 3px solid #427D9D;
+    padding-bottom: 2rem;
+}
+
+.Text {
+    margin: 0;
+    padding: 0;
+    color:#427D9D;
+    font-weight: bolder;
+    font-family: Arial;
+    font-size: 3rem;
+    text-shadow: -1px -1px 1px #164863;
+}
+
+.Logo-Number{
+    display: none;
+}
+
+.Buttons{
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    max-width: 30rem;
+}
+
 
 button{
-    display: block;
-    padding: 10px 30px;
-    margin-bottom: 10px;   
-    border-width: 1px;
-    font-family: Arial;
+    display: inline-block;
+    margin-left: 10px;
+    width: 170px;
+    color: white;
+    background-color: #164863;
+    padding: 10px 50px;
+    border-radius: 40px;
+    border: none;
     cursor: pointer;
-    transition: all 0.5s;
-    border-radius: 40px;
+    transition: all 0.70s;
     
 }
-
 button:hover{
-    font-size: 20px;
-    
-}
-
-.Bold {
     font-weight: bold;
-}
-
-.Boxes {
-    color: white;
-    background-color: green;
-    border-radius: 40px;
-}
-
-.Buttons {
+    width: 170px;
     padding: 10px 30px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+
+}
+button:hover span{
+    display: none;
+}
+
+.Button-one:hover:before{
+    content: "Boxes";
+}
+.Button-one:hover{
+    background-color: green;
+    color: black;
+
+}
+
+.Button-Two:hover:before{
+   content: "Buttons";
+}
+.Button-Two:hover{
     background-color: yellow;
-    border-radius: 30px;
-}
-.Buttons:hover{
-    background-color: orange;
+    color: black;
+
 }
 
-.Divs {
+.Button-Three:hover:before{
+    content:"Divs";
+}
+.Button-Three:hover{
+    color: white;
     background-color: red;
-    color: white;
-}
-.Divs:hover{
-    background-color: rgb(69, 206, 69);
+
 }
 
-.Form {
-    padding: 10px 36px;
-    background-color: rgb(0, 47, 255);
-    color: white;  
+.Button-Four:hover:Before{
+    content:"Forms";
+}
+.Button-Four:hover{
+
+    background-color: blue;
+    color:white;
+
 }
 
-.Form:hover{
-    background-color: rgb(41, 147, 247);
-    color: azure;
-}
 
-.Homework {
-    background-color: white;
+.Button-Five:hover:Before{
+    content:"Text-A";
 }
-.Homework:hover{
+.Button-Five:hover{
     background-color: whitesmoke;
+    color: black;
 }
 
-.Learn {
-    background-color: darkblue;
-    color: white;
+.Button-Six:hover:Before{
+    content: "Learn";
+}
+.Button-Six:hover{
+    background-color: rgb(0, 0, 139);
 
 }
 
-.Social-Buttons {
+.Button-Seven:hover:Before{
+    content:"Buttons";
+}
+.Button-Seven:hover{
     background-color: white;
+    color:rgb(6, 95, 212);
     border-color: rgb(6, 95, 212);
-    color:  rgb(6, 95, 212);
 }
-.Social-Buttons:hover{
-    background-color: rgb(6, 95, 212);
-    color: white;
+.Button-Eight:hover:Before{
+    content:"Shop";
 }
-
-.Website {
+.Button-Eight:hover{
     background-color: orange;
-    
+    color: black;
 }
 
-.Youtube {
-    background-color: rgb(247, 69, 69);
+.Button-Nine:hover:before{
+    content: "YouTube";
 }
-.Youtube:hover{
-    background-color: rgb(255, 0, 0);
+.Button-Nine:hover{
     color: white;
-    border-color: red;
+    background-color: red;
 }
 
-.Youtube-Try {
+.Button-Ten:hover:before{
+    content:"Text-B"
+}
+.Button-Ten:hover{
+    color: Black;
     background-color: white;
 }
-.Youtube-Try:hover{
-    background-color: aqua;
-    color: whitesmoke;
+
+.Credits{
+    margin: 0;
+    padding: 0;
+    color:#427D9D;
+    font-weight: bolder;
+    font-family: Arial;
+    font-size: 3rem;
+    text-shadow: -1px -1px 1px #164863;
+}
+
+@media(min-width:700px){
+    .Buttons{
+        max-width: 50rem;
+    }
+
+    button{
+    display: inline-block;
+    margin-left: 10px;
+    width: 300px;
+    padding: 20px 100px;
+    border-radius: 40px;
+    transition: all 0.70s;
+    }
+
+    button:hover{
+    width: 340px;
+    padding: 20px 60px;
+    border-width: 1px;
+    border-style: solid;
+    }
+
+    .Text{
+        font-size: 5rem;
+    }
+
+    .Logo-Number{
+        display: inline;
+        color:#427D9D;
+        font-weight: bolder;
+        font-family: Arial;
+        font-size: 5.3rem;
+        top: 2rem;
+        left: 2rem;
+        text-shadow: -1px -1px 1px #164863;
+    }
 }
